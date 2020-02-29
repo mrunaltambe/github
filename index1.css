@@ -1,0 +1,93 @@
+/* box_model */
+
+html,body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+#box{
+  height: 40%;
+  width: 30%;
+  background-color: aqua;
+  /* padding: 50px, 100px, 20px, 150px;
+  margin: 100px;
+  border: 10px double goldenrod; */
+  border: 5px solid goldenrod;
+  /* border-radius: 50%; */
+  /* border-bottom-left-radius: 160px;
+  border-top-left-radius: 160px; */
+  /* border-bottom: 50px */
+  position: relative;
+  /* opacity: 10%; */
+  /* top: 0px; */
+  /* right: 0px;
+  bottom: 0px; */
+}
+
+#box1{
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  border: 5px solid goldenrod;
+  position: absolute;
+  left: 0px;
+}
+
+  /* padding: 50px, 100px, 20px, 150px;
+  margin: 100px; */
+  /* border: 10px double goldenrod; */
+  /* border-radius: 50%; */
+  /* border-bottom-left-radius: 160px;
+  border-top-left-radius: 160px; */
+  /* border-bottom: 50px */
+
+#box2{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  border: 5px solid goldenrod;
+  position: absolute;
+  right: 0px;
+  top: 0px
+}
+
+#box3{
+  height: 100px;
+  width: 100px;
+  background-color: violet;
+  border: 5px solid goldenrod;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+#box4{
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border: 5px solid goldenrod;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+/* span{
+  color: yellowgreen;
+  background-color: rebeccapurple;
+}
+
+p{
+  background-color: salmon;
+} */
+
+p{
+  display: inline;
+  /* display: none;
+  display: block;
+  display: inline-block; */
+}
+
+h3{
+  display: inline;
+}

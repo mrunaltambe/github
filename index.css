@@ -1,0 +1,12 @@
+h1{
+  color: red;
+}
+
+.fancy-button {
+  color: #fff;
+  background: rgb(226, 5, 5);
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 2px 8px rgba(0 , 0 , 0 , 0.8)
+  font-size: 60px
+}

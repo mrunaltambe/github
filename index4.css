@@ -1,0 +1,34 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+#myContainer{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: peachpuff;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+div{
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+div:hover{
+  border: 5px solid whitesmoke;
+  transform: rotate(45deg);
+}
+
+#box{
+  transform: rotate(45deg);
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
